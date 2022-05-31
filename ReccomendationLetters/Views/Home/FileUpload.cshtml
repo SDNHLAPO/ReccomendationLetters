@@ -1,0 +1,26 @@
+﻿<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="FileUpload">
+    <div class="form-group">
+        <div class="col-md-10">
+           <p>Upload Transcript/Proof of Registration</p>
+           <input type="file" name="file"/>
+
+
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Upload File" />
+
+    </div>
+    <div class="form-group">
+        <span>@TempData["msg"]</span>
+
+    </div>
+
+
+
+
+
+
+
+
+</form>
